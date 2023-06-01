@@ -1,0 +1,12 @@
+CREATE TABLE "jobs" (
+	"id"	INTEGER,
+	"title"	TEXT,
+	"description"	TEXT,
+	"salary"	TEXT,
+	"company"	TEXT,
+	"email"	TEXT,
+	"new"	INTEGER,
+	"createAt"	TEXT,
+	"updateAt"	TEXT,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);

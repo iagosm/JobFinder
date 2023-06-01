@@ -1,0 +1,21 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Projeto do curso da udemy. Portal para Programadores encontrarem vagas de trabalho ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Iago Sousa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
